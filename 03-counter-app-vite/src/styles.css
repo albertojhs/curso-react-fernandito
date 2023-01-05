@@ -1,0 +1,25 @@
+/* Si precionas ctrl + shift + p y luego buscar sort puedes escoger ordenar las cosas alfabéticamente */
+html, body {
+    background-color: #21232A;
+    color: white;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 1.3rem;
+    padding: 70px;
+}
+
+p{
+    letter-spacing: 2.5px;
+    word-spacing: 2px;
+    line-height: 37px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+
+button{
+    padding: 15px;
+    font-size: 1.3rem;
+    
+}

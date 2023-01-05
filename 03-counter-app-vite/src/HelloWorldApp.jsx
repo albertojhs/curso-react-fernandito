@@ -1,0 +1,1 @@
+export const App = () => (<h1>Hola mundo de React!</h1>);
