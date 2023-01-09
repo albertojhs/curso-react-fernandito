@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <FirstApp /> debe coincidir con la fotografía del componente 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    Hola soy Alberto
+  </h1>
+  <h2>
+    José José
+  </h2>
+  <h2 />
+  <p>
+    Sit amet consectetur adipisicing elit. Itaque, inventore! Fugit deleniti repellat eligendi maiores nam doloremque corrupti, ipsum quisquam, distinctio culpa nihil iure sunt facere quae? Velit, ipsam autem!
+  </p>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, assumenda repellendus. Dolor, cupiditate ducimus fugit quo voluptates, dolorum repellendus ratione nulla nisi consequuntur inventore perspiciatis a, vero iusto ad. Id. Officia ea a nemo eligendi debitis eveniet animi quia cum laboriosam, recusandae laudantium alias unde laborum culpa molestias iusto ipsum autem incidunt nihil quo! Blanditiis optio ducimus iste nostrum officiis. Similique dicta mollitia provident sapiente quas fugiat vitae sequi fuga esse eum dolorum hic earum sunt deleniti, rem commodi ab ipsam repudiandae. Molestiae tenetur beatae repellendus, in amet expedita perferendis! Excepturi maxime error aspernatur ea facilis magnam quis magni quos, sequi iusto commodi adipisci, placeat deserunt molestiae nisi tempora consequuntur atque at et similique inventore autem quas dicta. Officiis, illum.
+  </p>
+</div>
+`;
