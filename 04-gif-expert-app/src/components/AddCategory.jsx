@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import { PropTypes } from 'prop-types';
 
-
-export const AddCategory = (props) => {
+export const AddCategory = ({onAddCategory}) => {
 
     const [inputValue, setInputValue] = useState('');
 
@@ -10,10 +10,9 @@ export const AddCategory = (props) => {
     }
 
     const onSubmit = (event) => {
-
         event.preventDefault();
         if( inputValue.trim().length < 1 ) return;
-        props.onAddCategory( inputValue.trim() );
+        onAddCategory( inputValue.trim() );
         setInputValue( '' );
 
         //Si usaramos setCategories en su lugar habría que pasar un callback en lugar de un string
@@ -28,7 +27,7 @@ export const AddCategory = (props) => {
 
     return (
         // <form onSubmit={ (event) => onSubmit(event) }>
-        <form onSubmit={ onSubmit }>
+        <form onSubmit={ onSubmit } aria-label="form">
             <input 
                 type="text" 
                 placeholder="Buscar gifs"
@@ -38,4 +37,8 @@ export const AddCategory = (props) => {
             />
         </form>
     )
+}
+
+AddCategory.propTypes = {
+    onAddCategory:  PropTypes.func.isRequired
 }

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de GifItem GifItem debe de validar el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Texto alternativo para el gif"
+      src="https://www.pagina-de-gifs.com/"
+    />
+    <p>
+      Texto alternativo para el gif
+    </p>
+  </div>
+</div>
+`;
