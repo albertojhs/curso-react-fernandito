@@ -1,4 +1,4 @@
-import { render, screen, renderHook } from '@testing-library/react';
+import { render, screen  } from '@testing-library/react';
 import { GifExpertApp } from '../src/GifExpertApp';
 
 
@@ -13,5 +13,5 @@ describe('Pruebas de GifExpertApp', () => {
         render( <GifExpertApp /> );
         expect( screen ).toMatchSnapshot();
     });
-    
+
 });
